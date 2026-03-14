@@ -1,0 +1,15 @@
+Spam Email Classifier
+
+This is a beginner machine learning project that classifies emails as spam or ham.
+
+Technologies Used:
+- Python
+- Scikit-learn
+
+Algorithm:
+- Naive Bayes
+
+Features:
+- Text vectorization
+- Spam prediction
+- User input testing
