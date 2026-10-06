@@ -54,6 +54,23 @@ spam-email-classifier/
 
 ---
 
+## Implementation Status
+
+### Implemented (Verified in Active Codebase)
+- **Text Feature Extraction:** Converts sample email strings into bag-of-words token-count matrices via `CountVectorizer`.
+- **Probabilistic Modeling:** Fits a `MultinomialNB` model against sample label matrices.
+- **Interactive Console Inference:** Accepts arbitrary user text via terminal prompt and outputs predicted `spam` or `ham` classification.
+
+### In Progress
+- *None (Exploratory Proof-of-Concept Complete).*
+
+### Planned (Future Enhancements)
+- **Benchmark Corpus Training:** Training and evaluating against standardized NLP corpora (e.g. Enron Spam or SMS Spam Collection).
+- **Evaluation Telemetry:** Generating confusion matrices, ROC-AUC curves, and F1-score benchmarks.
+- **TF-IDF Weighting:** Replacing basic word counts with Term Frequency-Inverse Document Frequency scaling.
+
+---
+
 ## Quick Start
 
 ### 1. Environment Setup
